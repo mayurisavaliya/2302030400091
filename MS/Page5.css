@@ -1,0 +1,94 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background: url('background.jpg') no-repeat center center/cover;
+    color: black;
+}
+
+header {
+    /* margin-top: 50px; */
+    text-align: center;
+    padding: 0px 0;
+}
+
+header h1 {
+    background-color: rgba(128, 128, 128, 0.83);
+    font-size: 35px;
+}
+
+nav ul {
+    background: rgba(105, 197, 255, 0.25);
+    font-size: 20px;
+    list-style: none;
+    padding: 5px 150px;
+    display: flex;
+    justify-content:end;
+    gap: 15px;
+}
+
+
+nav ul li {
+    display: inline;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: black;
+    font-weight: 500;
+}
+
+nav ul li a.active {
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+.writers-container {
+    margin: 50px auto;
+    width: 80%;
+}
+
+.writers-container p{
+    font-size: 35px;
+}
+
+.writer-list {
+    margin-top: 15px;
+    text-align: left;
+    display: inline-block;
+    margin-top: 10px;
+}
+
+.writer-list li {
+    margin-bottom: 5px;
+    font-size: 25px;
+}
+
+.writers-grid {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    margin-top: 30px;
+}
+
+.writer {
+    text-align: center;
+}
+
+.writer img {
+    margin-top: 45px;
+    width: 250px;
+    height: 300px;
+    border-radius: 10px;
+    object-fit: cover;
+}
+
+.writer p {
+    margin-top: 10px;
+    font-size: 16px;
+    font-weight: bold;
+}
